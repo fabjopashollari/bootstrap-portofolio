@@ -3,3 +3,10 @@
     justify-content: center;
     align-items: center;
 }
+.zvogelo{
+    width: 50%;
+}
+.vendosja {
+    display: flex;
+    flex-direction: column;
+}
