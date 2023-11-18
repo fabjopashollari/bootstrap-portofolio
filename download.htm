@@ -1,0 +1,583 @@
+<!doctype html><html lang="en-US"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="profile" href="https://gmpg.org/xfn/11" /><link rel="stylesheet" href="https://assets.interviewbit.com/blog/masterclassStylev5.css"> <script>!function(){var e={};e.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),function(n){let{ampUrl:t,isCustomizePreview:r,isAmpDevMode:o,noampQueryVarName:s,noampQueryVarValue:i,disabledStorageKey:a,mobileUserAgents:c,regexRegex:u}=n;if("undefined"==typeof sessionStorage)return;const d=new RegExp(u);if(!c.some((e=>{const n=e.match(d);return!(!n||!new RegExp(n[1],n[2]).test(navigator.userAgent))||navigator.userAgent.includes(e)})))return;e.g.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("amp-mobile-version-switcher");if(!e)return;e.hidden=!1;const n=e.querySelector("a[href]");n&&n.addEventListener("click",(()=>{sessionStorage.removeItem(a)}))}));const g=o&&["paired-browsing-non-amp","paired-browsing-amp"].includes(window.name);if(sessionStorage.getItem(a)||r||g)return;const m=new URL(location.href),h=new URL(t);h.hash=m.hash,m.searchParams.has(s)&&i===m.searchParams.get(s)?sessionStorage.setItem(a,"1"):h.href!==m.href&&(window.stop(),location.replace(h.href))}({"ampUrl":"https:\/\/www.interviewbit.com\/blog\/devops-projects\/?amp=1","noampQueryVarName":"noamp","noampQueryVarValue":"mobile","disabledStorageKey":"amp_mobile_redirect_disabled","mobileUserAgents":["Mobile","Android","Silk\/","Kindle","BlackBerry","Opera Mini","Opera Mobi"],"regexRegex":"^\\/((?:.|\n)+)\\/([i]*)$","isCustomizePreview":false,"isAmpDevMode":false})}();</script> <link media="all" href="https://www.interviewbit.com/blog/wp-content/cache/autoptimize/css/autoptimize_d32ff2677c02fe2b3be119509712d359.css" rel="stylesheet" /><link media="screen" href="https://www.interviewbit.com/blog/wp-content/cache/autoptimize/css/autoptimize_4773cc3f2db0f7eeb0d9cf763ae5f363.css" rel="stylesheet" /><title>Top 10 DevOps Projects With Source Code [2023] &#x2d; InterviewBit</title>  <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//</script> <meta name="robots" content="max-snippet:-1,max-image-preview:standard,max-video-preview:-1" /><meta name="description" content="Table Of Contents show Introduction DevOps Project Ideas Best DevOps Projects for Beginners 1. Java Application using Gradle 2. WebServer using Docker 3. CI/" /><meta property="og:image" content="https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-2048x1000.png" /><meta property="og:image:width" content="2048" /><meta property="og:image:height" content="1000" /><meta property="og:image:alt" content="DevOps Projects" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Top 10 DevOps Projects With Source Code [2023]" /><meta property="og:description" content="Table Of Contents show Introduction DevOps Project Ideas Best DevOps Projects for Beginners 1. Java Application using Gradle 2. WebServer using Docker 3. CI/CD Pipeline using Azure 4." /><meta property="og:url" content="https://www.interviewbit.com/blog/devops-projects/" /><meta property="og:site_name" content="InterviewBit" /><meta property="og:updated_time" content="2023-10-03T09:56+00:00" /><meta property="article:published_time" content="2023-10-03T09:52+00:00" /><meta property="article:modified_time" content="2023-10-03T09:56+00:00" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Top 10 DevOps Projects With Source Code [2023]" /><meta name="twitter:description" content="Table Of Contents show Introduction DevOps Project Ideas Best DevOps Projects for Beginners 1. Java Application using Gradle 2. WebServer using Docker 3. CI/CD Pipeline using Azure 4." /><meta name="twitter:image" content="https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-2048x1000.png" /><meta name="twitter:image:width" content="2048" /><meta name="twitter:image:height" content="1000" /><meta name="twitter:image:alt" content="DevOps Projects" /><link rel="canonical" href="https://www.interviewbit.com/blog/devops-projects/" /> <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.interviewbit.com/blog/","name":"InterviewBit"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.interviewbit.com/blog/category/projects/","name":"Projects"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.interviewbit.com/blog/devops-projects/","name":"Top 10 DevOps Projects With Source Code [2023]"}}]}</script> <link rel='dns-prefetch' href='//s.w.org' /><link href='https://fonts.gstatic.com' crossorigin rel='preconnect' /><link rel="alternate" type="application/rss+xml" title="InterviewBit &raquo; Feed" href="https://www.interviewbit.com/blog/feed/" /><link rel="alternate" type="application/rss+xml" title="InterviewBit &raquo; Comments Feed" href="https://www.interviewbit.com/blog/comments/feed/" /><link rel="alternate" type="application/rss+xml" title="InterviewBit &raquo; Stories Feed" href="https://www.interviewbit.com/blog/web-stories/feed/"><link rel="preload" href="https://www.interviewbit.com/blog/wp-content/plugins/canvas/assets/fonts/canvas-icons.woff" as="font" type="font/woff" crossorigin> <script>window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.interviewbit.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.8"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);</script> <!--noptimize--><script id="inter-ready">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<!--/noptimize--><link rel='alternate stylesheet' id='powerkit-icons-css'  href='https://www.interviewbit.com/blog/wp-content/plugins/powerkit/assets/fonts/powerkit-icons.woff?ver=2.6.8.1' as='font' type='font/wof' crossorigin /> <script src='https://www.interviewbit.com/blog/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script> <script id='advanced-ads-advanced-js-js-extra'>var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_needed"}};</script> <script id='advanced_ads_pro/visitor_conditions-js-extra'>var advanced_ads_pro_visitor_conditions = {"referrer_cookie_name":"advanced_ads_pro_visitor_referrer","referrer_exdays":"365","page_impr_cookie_name":"advanced_ads_page_impressions","page_impr_exdays":"3650"};</script> <link rel="https://api.w.org/" href="https://www.interviewbit.com/blog/wp-json/" /><link rel="alternate" type="application/json" href="https://www.interviewbit.com/blog/wp-json/wp/v2/posts/8209" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.interviewbit.com/blog/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.interviewbit.com/blog/wp-includes/wlwmanifest.xml" /><link rel="alternate" type="application/json+oembed" href="https://www.interviewbit.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.interviewbit.com%2Fblog%2Fdevops-projects%2F" /><link rel="alternate" type="text/xml+oembed" href="https://www.interviewbit.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.interviewbit.com%2Fblog%2Fdevops-projects%2F&#038;format=xml" /><link rel="preload" href="https://www.interviewbit.com/blog/wp-content/plugins/advanced-popups/fonts/advanced-popups-icons.woff" as="font" type="font/woff" crossorigin><meta name="generator" content="Site Kit by Google 1.111.1" /><script type="text/javascript">var daextamAjaxUrl = "https://www.interviewbit.com/blog/wp-admin/admin-ajax.php";var daextamNonce = "b63a43b537";</script>  <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//
+	var dataLayer_content = {"pagePostType":"post","pagePostType2":"single-post","pageCategory":["projects"],"pageAttributes":["devops-projects"],"pagePostAuthor":"ankit.dixit"};
+	dataLayer.push( dataLayer_content );//</script> <script data-cfasync="false">//
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NMKZTRG');//</script> 
+<script type="text/javascript">var advadsCfpQueue = [];
+		var advadsCfpAd = function( adID ){
+			if ( 'undefined' == typeof advadsProCfp ) { advadsCfpQueue.push( adID ) } else { advadsProCfp.addElement( adID ) }
+		};</script> <meta name="google-site-verification" content="gFZPUeuqP9yWqjVo39Yw5XgRJiem4E8_WjB1CaJd_3w"><meta name="google-site-verification" content="qiOmX_-nNFqYi3io77forDR69h_ShzalYp2FRTZmflY"><link rel="amphtml" href="https://www.interviewbit.com/blog/devops-projects/?amp=1"> <script type="text/javascript">if ( typeof advadsGATracking === 'undefined' ) {
+				window.advadsGATracking = {
+					delayedAds: {},
+					deferedAds: {}
+				};
+			}</script> <link rel="alternate" type="text/html" media="only screen and (max-width: 640px)" href="https://www.interviewbit.com/blog/devops-projects/?amp=1">  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56207880-1"></script> <script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-56207880-1');</script> <script src="https://assets.interviewbit.com/blog/masterclassOnBlogsv3.js"></script> </head><body class="post-template-default single single-post postid-8209 single-format-standard wp-embed-responsive cs-page-layout-right cs-navbar-sticky-enabled cs-navbar-smart-enabled cs-sticky-sidebar-enabled cs-stick-to-top" data-scheme='default' data-site-scheme='default'> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div class="cs-site-overlay"></div><div class="cs-offcanvas"><div class="cs-offcanvas__header" data-scheme="default"><nav class="cs-offcanvas__nav"><div class="cs-logo"> <a class="cs-header__logo cs-logo-default " href="https://interviewbit.com"> <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/IB-Logo.png"  alt="InterviewBit" > </a> <a class="cs-header__logo cs-logo-dark " href="https://interviewbit.com"> <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/IB-Logo-Invert.png"  alt="InterviewBit" > </a></div> <span class="cs-offcanvas__toggle" role="button"><i class="cs-icon cs-icon-x"></i></span></nav></div><aside class="cs-offcanvas__sidebar"><div class="cs-offcanvas__inner cs-offcanvas__area cs-widget-area"><div class="widget widget_nav_menu cs-d-lg-none"><div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-2007" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2007"><a target="_blank" rel="noopener" href="https://www.scaler.com/?utm_source=ib&#038;utm_campaign=scaler&#038;utm_medium=nav-menu">Scaler</a></li><li id="menu-item-2008" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2008"><a target="_blank" rel="noopener" href="https://www.interviewbit.com/practice/">Practice</a></li><li id="menu-item-2191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2191"><a href="https://www.interviewbit.com/blog/technical-interview-questions/">Interview Questions</a></li><li id="menu-item-2009" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2009"><a target="_blank" rel="noopener" href="https://www.interviewbit.com/contests/">Contests</a></li><li id="menu-item-2010" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2010"><a target="_blank" rel="noopener" href="https://www.interviewbit.com/mock-interview/">Mock Interviews</a></li><li id="menu-item-2196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2196"><a href="#">Online Compilers <span class="pk-badge pk-badge-primary">New</span></a><ul class="sub-menu"><li id="menu-item-2197" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2197"><a target="_blank" rel="noopener" href="http://www.interviewbit.com/online-c-compiler/">Online C Compiler</a></li><li id="menu-item-2198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2198"><a target="_blank" rel="noopener" href="http://www.interviewbit.com/online-cpp-compiler/">Online C++ Compiler</a></li><li id="menu-item-2199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2199"><a target="_blank" rel="noopener" href="http://www.interviewbit.com/online-java-compiler/">Online Java Compiler</a></li><li id="menu-item-2200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2200"><a target="_blank" rel="noopener" href="http://www.interviewbit.com/online-python-compiler/">Online Python Compiler</a></li></ul></li></ul></div></div></div></aside></div><div id="page" class="cs-site"><div class="cs-site-inner"><header class="cs-header cs-header-stretch cs-header-one" data-scheme="default"><div class="cs-container"><div class="cs-header__inner cs-header__inner-desktop"><div class="cs-header__col cs-col-left"> <span class="cs-header__offcanvas-toggle  cs-d-lg-none" role="button"> <span></span> </span><div class="cs-logo"> <a class="cs-header__logo cs-logo-default " href="https://interviewbit.com"> <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/IB-Logo.png"  alt="InterviewBit" > </a> <a class="cs-header__logo cs-logo-dark " href="https://interviewbit.com"> <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/IB-Logo-Invert.png"  alt="InterviewBit" > </a></div><nav class="cs-header__nav"><ul id="menu-main-menu-1" class="cs-header__nav-inner"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2007"><a target="_blank" rel="noopener" href="https://www.scaler.com/?utm_source=ib&#038;utm_campaign=scaler&#038;utm_medium=nav-menu"><span>Scaler</span></a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2008"><a target="_blank" rel="noopener" href="https://www.interviewbit.com/practice/"><span>Practice</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2191"><a href="https://www.interviewbit.com/blog/technical-interview-questions/"><span>Interview Questions</span></a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2009"><a target="_blank" rel="noopener" href="https://www.interviewbit.com/contests/"><span>Contests</span></a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2010"><a target="_blank" rel="noopener" href="https://www.interviewbit.com/mock-interview/"><span>Mock Interviews</span></a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2196"><a href="#"><span>Online Compilers <span class="pk-badge pk-badge-primary">New</span></span></a><ul class="sub-menu" data-scheme="default"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2197"><a target="_blank" rel="noopener" href="http://www.interviewbit.com/online-c-compiler/">Online C Compiler</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2198"><a target="_blank" rel="noopener" href="http://www.interviewbit.com/online-cpp-compiler/">Online C++ Compiler</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2199"><a target="_blank" rel="noopener" href="http://www.interviewbit.com/online-java-compiler/">Online Java Compiler</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2200"><a target="_blank" rel="noopener" href="http://www.interviewbit.com/online-python-compiler/">Online Python Compiler</a></li></ul></li></ul></nav></div><div class="cs-header__col cs-col-right" id="header_right_id"><div class="cs-navbar-social-links"><div class="pk-social-links-wrap  pk-social-links-template-nav pk-social-links-align-default pk-social-links-scheme-default pk-social-links-titles-disabled pk-social-links-counts-enabled pk-social-links-labels-disabled pk-social-links-mode-php pk-social-links-mode-rest"><div class="pk-social-links-items"><div class="pk-social-links-item pk-social-links-facebook " data-id="facebook"> <a href="https://facebook.com/interviewbit" class="pk-social-links-link" target="_blank" rel="nofollow noopener" aria-label="Facebook"> <i class="pk-social-links-icon pk-icon pk-icon-facebook"></i> <span class="pk-social-links-count pk-font-secondary">26K</span> </a></div><div class="pk-social-links-item pk-social-links-linkedin  pk-social-links-no-count" data-id="linkedin"> <a href="https://www.linkedin.com/in/interviewbit" class="pk-social-links-link" target="_blank" rel="nofollow noopener" aria-label="LinkedIn"> <i class="pk-social-links-icon pk-icon pk-icon-linkedin"></i> <span class="pk-social-links-count pk-font-secondary"></span> </a></div><div class="pk-social-links-item pk-social-links-twitter  pk-social-links-no-count" data-id="twitter"> <a href="https://twitter.com/interview_bit" class="pk-social-links-link" target="_blank" rel="nofollow noopener" aria-label="Twitter"> <i class="pk-social-links-icon pk-icon pk-icon-twitter"></i> <span class="pk-social-links-count pk-font-secondary">0</span> </a></div></div></div></div> <span class="cs-header__search-toggle" role="button"> <i class="cs-icon cs-icon-search"></i> </span></div></div><div class="cs-header__inner cs-header__inner-mobile"><div class="cs-header__col cs-col-left"> <span class="cs-header__offcanvas-toggle  cs-d-lg-none" role="button"> <span></span> </span></div><div class="cs-header__col cs-col-center"><div class="cs-logo"> <a class="cs-header__logo cs-logo-default " href="https://interviewbit.com"> <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/IB-Logo.png"  alt="InterviewBit" > </a> <a class="cs-header__logo cs-logo-dark " href="https://interviewbit.com"> <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/IB-Logo-Invert.png"  alt="InterviewBit" > </a></div></div><div class="cs-header__col cs-col-right"> <span class="cs-header__search-toggle" role="button"> <i class="cs-icon cs-icon-search"></i> </span></div></div></div><div class="cs-search" data-scheme="default"><div class="cs-container"><form role="search" method="get" class="cs-search__nav-form" action="https://www.interviewbit.com/blog/"><div class="cs-search__group"> <button class="cs-search__submit"> <i class="cs-icon cs-icon-search"></i> </button> <input data-swpparentel=".cs-header .cs-search-live-result" required class="cs-search__input" data-swplive="true" type="search" value="" name="s" placeholder="Enter keyword"> <button class="cs-search__close"> <i class="cs-icon cs-icon-x"></i> </button></div></form><div class="cs-search__content"><div class="cs-search-live-result"></div></div></div></div></header><div id="ribbon-container"></div><main id="main" class="cs-site-primary"><div class="blogs-mc-container hide" data-src="blogs-mc-container"></div><div class="cs-site-content cs-sidebar-enabled cs-sidebar-right cs-metabar-enabled section-heading-default-style-1"><div class="cs-container"><div id="content" class="cs-main-content"><div id="primary" class="cs-content-area"><div class="cs-entry__header cs-entry__header-standard cs-video-wrap"><div class="cs-entry__header-inner"><div class="cs-entry__header-info"><div class="cs-entry__post-meta" ><div class="cs-meta-category"><ul class="post-categories"><li><a href="https://www.interviewbit.com/blog/category/projects/" rel="category tag">Projects</a></li></ul></div><div class="cs-meta-reading-time"><span class="cs-meta-icon"><i class="cs-icon cs-icon-clock"></i></span>9 minute read</div></div><h1 class="cs-entry__title"><span>Top 10 DevOps Projects With Source Code [2023]</span></h1><div class="cs-entry__details cs-entry__header-details"><div class="cs-entry__details-data"><div class="cs-entry__details-meta"><div class="cs-entry__post-meta" ><div class="cs-meta-date">October 3, 2023</div></div></div></div><div class="cs-entry__share-buttons"><div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-simple-light pk-share-buttons-post-header pk-share-buttons-mode-php pk-share-buttons-mode-rest" data-post-id="8209" data-share-url="https://www.interviewbit.com/blog/devops-projects/" ><div class="pk-share-buttons-items"><div class="pk-share-buttons-item pk-share-buttons-whatsapp pk-share-buttons-no-count" data-id="whatsapp"> <a href="whatsapp://send?text=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-whatsapp"></i> </a></div><div class="pk-share-buttons-item pk-share-buttons-linkedin pk-share-buttons-no-count" data-id="linkedin"> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-linkedin"></i> </a></div><div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-no-count" data-id="facebook"> <a href="https://www.facebook.com/sharer.php?u=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i> </a></div><div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter"> <a href="https://twitter.com/share?&text=Top%2010%20DevOps%20Projects%20With%20Source%20Code%20%5B2023%5D&via=interview_bit&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i> </a></div></div></div></div></div></div><figure class="cs-entry__post-media post-media"> <img width="800" height="391" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAGHAQMAAAByOKRUAAAAA1BMVEUAAP+KeNJXAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUeNrtwTEBAAAAwqD1T+1vBqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgDmkMAAfR614sAAAAASUVORK5CYII=" class="attachment-csco-medium-uncropped size-csco-medium-uncropped pk-lazyload wp-post-image" alt="DevOps Projects" loading="lazy" data-pk-sizes="auto" data-ls-sizes="(max-width: 800px) 100vw, 800px" data-pk-src="https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-800x391.png" data-pk-srcset="https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-800x391.png 800w, https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-300x146.png 300w, https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-1024x500.png 1024w, https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-768x375.png 768w, https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-1536x750.png 1536w, https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-2048x1000.png 2048w, https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-380x186.png 380w, https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-550x269.png 550w, https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-1160x566.png 1160w" /></figure></div></div><div class="cs-entry__wrap"><div class="cs-entry__container"><div class="cs-entry__metabar"><div class="cs-entry__metabar-inner"><div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-simple-light pk-share-buttons-metabar-post pk-share-buttons-mode-php pk-share-buttons-mode-rest" data-post-id="8209" data-share-url="https://www.interviewbit.com/blog/devops-projects/" ><div class="pk-share-buttons-items"><div class="pk-share-buttons-item pk-share-buttons-whatsapp pk-share-buttons-no-count" data-id="whatsapp"> <a href="whatsapp://send?text=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-whatsapp"></i> </a></div><div class="pk-share-buttons-item pk-share-buttons-linkedin pk-share-buttons-no-count" data-id="linkedin"> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-linkedin"></i> </a></div><div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-no-count" data-id="facebook"> <a href="https://www.facebook.com/sharer.php?u=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i> </a></div><div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter"> <a href="https://twitter.com/share?&text=Top%2010%20DevOps%20Projects%20With%20Source%20Code%20%5B2023%5D&via=interview_bit&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i> </a></div></div></div></div></div><div class="cs-entry__content-wrap"><div class="entry-content"><div class="gutentoc tocactive ullist"><div class="gutentoc-toc-wrap"><div class="gutentoc-toc-title-wrap"><div class="gutentoc-toc-title">Table Of Contents</div><div id="open" class="text_open">show</div></div><div id="toclist"><div class="gutentoc-toc__list-wrap"><ul class="gutentoc-toc__list"><li><a href="#introduction">Introduction</a></li><li><a href="#devops-project-ideas">DevOps Project Ideas</a></li><ul class="gutentoc-toc__list"><li><a href="#best-devops-projects-for-beginners">Best DevOps Projects for Beginners</a></li><ul class="gutentoc-toc__list"><li><a href="#1-java-application-using-gradle">1. Java Application using Gradle</a></li><li><a href="#2-webserver-using-docker">2. WebServer using Docker</a></li><li><a href="#3-cicd-pipeline-using-azure">3. CI/CD Pipeline using Azure</a></li><li><a href="#4-jenkins-remoting-project">4. Jenkins Remoting Project</a></li><li><a href="#5-cd-pipeline-using-aws">5. CD Pipeline using AWS</a></li></ul><li><a href="#best-devops-projects-for-advanced">Best DevOps Projects for Advanced</a></li><ul class="gutentoc-toc__list"><li><a href="#6-deploying-a-containerized-web-application">6. Deploying a Containerized Web Application</a></li><li><a href="#7-building-version-control-system">7. Building Version Control System</a></li><li><a href="#8-deploying-application-using-kubernetes">8. Deploying Application Using Kubernetes</a></li><li><a href="#9-structuring-a-terraform-project">9. Structuring a Terraform Project</a></li><li><a href="#10-building-and-executing-selenium-project">10. Building and Executing Selenium Project</a></li></ul></ul><li><a href="#devops-projects-why-are-they-so-important">DevOps Projects: Why Are They So Important?</a></li><li><a href="#conclusion">Conclusion</a></li><li><a href="#faqs">FAQs</a></li><ul class="gutentoc-toc__list"><li><a href="#q1-how-do-you-explain-the-devops-project">Q.1: How do you explain the DevOps project?</a></li><li><a href="#q2-what-is-the-main-goal-of-devops">Q.2: What is the main goal of DevOps?</a></li><li><a href="#q3-what-are-the-benefits-of-devops">Q.3: What are the benefits of DevOps?</a></li></ul><li><a href="#additional-resources">Additional Resources</a></li></ul></div></div></div></div><h2 id="introduction">Introduction</h2><p>DevOps stands for Development and Operations. It&#8217;s a software engineering approach that focuses on bringing the development and operations teams together to automate the project at every level. This method makes it simple to automate project service management to support operational goals and gain a better grasp of the technological stack in use in the production environment.</p><p>This approach is based on agile methodology and emphasizes team communication, resource management, and collaboration. The speed of development and resolution of difficulties at the production environment level, the stability of applications, and the innovation engaged behind it are the key benefits of using this structure.</p><h2 id="devops-project-ideas">DevOps Project Ideas</h2><p>The project ideas presented here are based on real-life examples. DevOps teams may already be performing or will be required to accomplish these tasks.</p><div class="inter-content_6 inter-target" id="inter-1639136379" data-advadstrackid="12876" data-advadstrackbid="1"><!--noptimize--><div style="border-radius: 8px; background-color: #f3f3f3; padding: 20px 40px;">
+<div style="display: flex; flex-direction: column; margin-bottom: 20px;">
+<h3 id="confused-about-your-next-job">Confused about your next job?</h3>
+<div>In 4 simple steps you can find your personalised career roadmap in Software development for FREE</div>
+</div>
+<p><iframe style="border-radius: 8px;" title="Career Roadmaps" src="https://www.scaler.com/career-plan/embedded?iframe=true&amp;utm_source=ib&amp;utm_medium=blog-embed&amp;utm_campaign=career-tool" width="100%" height="600" frameborder="0"></iframe><br />
+<a style="margin-top: 20px; display: flex; justify-content: flex-end;" href="https://www.scaler.com/career-plan/embedded?utm_source=ib&amp;utm_medium=blog-embed&amp;utm_campaign=career-tool" target="_blank" rel="noopener"><br />
+Expand in New Tab </a></p>
+</div>
+<!--/noptimize--></div><p>DevOps means different things to different people in different companies, but it usually means automating cloud infrastructure and assisting development teams in getting software into customers&#8217; hands reliably.</p><p>So, instead of spending time setting up infrastructure, these project ideas are all focused on deploying software.</p><h3 id="best-devops-projects-for-beginners">Best DevOps Projects for Beginners</h3><h4 id="1-java-application-using-gradle">1. Java Application using Gradle</h4><p>Gradle is a well-known build automation tool that works across a variety of platforms and languages. This project includes establishing a Java application and breaking it down into subprojects in order to modularize it.</p><p>After completing this project, you will know how to initialize a project as Java application, run the build and build it’s test report. You will learn the way to execute a Java application and build it in an archive.</p><div class="wp-container-1 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://docs.gradle.org/current/samples/sample_building_java_applications.html" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h4 id="2-webserver-using-docker">2. WebServer using Docker</h4><p>Docker is a popular container technology for hosting services and applications that virtualizes operating systems and builds lightweight containers. You will create a default base image for this project that other developers can use in their production environments. This project offers the framework for web app images in Python, Ruby, and Meteor.</p><p>On successful completion of this project, you will be able to reduce the size of the Dockerfile, shorten the time it takes to write a Dockerfile. Also, you will learn to correctly setup the base system and reduce the amount of time it takes to run docker build and the download time.</p><div class="wp-container-2 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://github.com/phusion/passenger-docker" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h4 id="3-cicd-pipeline-using-azure"><span id="3-ci-cd-pipeline-using-azure">3. CI/CD Pipeline using Azure</span></h4><p>You&#8217;ll use Azure DevOps Project to set up continuous delivery (CD) and continuous integration (CI) pipelines in this project. You may get started by using the provided code. The purpose is to quickly deploy an app to a variety of Azure services, including App Service, Virtual Machines, and Azure Kubernetes Services (AKS).</p><p>In this project, you&#8217;ll use Azure&#8217;s DevOps Starter feature to establish an ASP.NET sample code, explore the CI/CD pipelines configured by DevOps Starter, commit code changes and run CI/CD, and configure Azure Application Insights monitoring.</p><div class="wp-container-3 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://github.com/Microsoft/azuredevopslabs/tree/master/labs/vstsextend/azuredevopsprojectdotnet/" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h4 id="4-jenkins-remoting-project">4. Jenkins Remoting Project</h4><p>Jenkins Remoting is a library and archive for creating a communication layer. TCP protocols, data streaming, procedure calls, and other features are all included.</p><p>In this project, you will have to improve Jenkins Remoting, a communication layer implementation library. Jenkins Remoting can be made compatible with a bus technology like ActiveMQ or RabbitMQ. You&#8217;ll need knowledge of networking fundamentals, Java, and message queues to execute the task.</p><div class="wp-container-4 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://github.com/jenkinsci/remoting" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h4 id="5-cd-pipeline-using-aws">5. CD Pipeline using AWS</h4><p>You will develop a continuous delivery pipeline for a small web application in this project. To store your source code, you&#8217;ll first use a version control system.&nbsp;</p><p>Then you&#8217;ll learn how to set up a continuous delivery pipeline that will deploy your web application automatically anytime your source code is updated. This project uses GitHub, AWS Elastic Beanstalk, AWS CodeBuild, and AWS CodePipeline.</p><div class="wp-container-5 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://aws.amazon.com/getting-started/hands-on/create-continuous-delivery-pipeline/" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h3 id="best-devops-projects-for-advanced">Best DevOps Projects for Advanced</h3><h4 id="6-deploying-a-containerized-web-application">6. Deploying a Containerized Web Application</h4><p>This project demonstrates how to package a web application as a Docker container image and run it on a Google Kubernetes Engine (GKE) cluster. The web application is then deployed as a load-balanced collection of replicas that can scale to meet the demands of your users.</p><p>This project will help you in learning of how to package a sample web application into a Docker image, uploading the Docker image to Artifact Registry, creating a GKE cluster and deploying it to the cluster, managing autoscaling for deployment, exposing the app to the internet and deploying a new version of it.</p><div class="wp-container-6 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h4 id="7-building-version-control-system">7. Building Version Control System</h4><p>You can use a Version Control System to keep track of your code, inspect multiple versions of it, switch between them, maintain different versions of it, and share it with other programmers.</p><p>You will start with the basics and save code in our version control system. You will have to take the long way to set up a repository in order to do so. From there, you will figure out how to navigate through history. Then you will figure out how to handle branching, which is deceptively difficult in and of itself. You&#8217;ll be ready for Git once you&#8217;ve finished branching.</p><div class="wp-container-7 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://github.com/gitless-vcs/gitless" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h4 id="8-deploying-application-using-kubernetes">8. Deploying Application Using Kubernetes</h4><p>In this project, you are going to use a simple web service which parses user messages and adds your message to a Redis Server. It is similar to a voicemail where the users can leave messages.&nbsp;</p><p>This project needs to run the application on Kubernetes, hence dockerizing is the primary step in this project. Hence, you will learn how to enable the application to run in docker containers.&nbsp;</p><div class="wp-container-8 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://github.com/MagalixCorp/sample-api/" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h4 id="9-structuring-a-terraform-project">9. Structuring a Terraform Project</h4><p>In order to ensure its maintainability and extensibility in day-to-day operations, Terraform projects must be properly structured according to their use cases and perceived complexity.</p><p>This project will teach you how to organize Terraform projects based on their general purpose and complexity. Then, using the more popular Terraform features such as variables, localities, data sources, and provisioners, you&#8217;ll design a project with a simple structure. In the end, your project will use DigitalOcean to deploy an Ubuntu 20.04 server (Droplet), install an Apache web server, and point your domain to it.</p><div class="wp-container-9 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://www.digitalocean.com/community/tutorials/how-to-structure-a-terraform-project" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h4 id="10-building-and-executing-selenium-project">10. Building and Executing Selenium Project</h4><p>Test automation requires the creation and execution of Selenium projects. It facilitates the execution of tests, the analysis of reports, and the reporting of bugs.&nbsp;</p><p>Needless to say, this aids in the faster delivery of high-quality products to clients, making them happier. You will be able to demonstrate how to develop a Selenium project employing both a &#8220;Java Project&#8221; and a &#8220;Maven Project&#8221; after completing this project.</p><div class="wp-container-10 wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link" href="https://github.com/leftstick/selenium-example" target="_blank" rel="noreferrer noopener">Check Source Code</a></div></div><h2 id="devops-projects-why-are-they-so-important">DevOps Projects: Why Are They So Important?</h2><p>Studying devops is an essential skill to learn in order to make the software development lifecycle more efficient. You are recommended to make some good DevOps projects as DevOps engineers must be familiar with the below mentioned skills:</p><ul><li><strong>Fundamentals of Linux and Scripting</strong>: Many firms prefer to host their apps on the Linux operating system, therefore DevOps engineers must be familiar with it. In addition, Linux is used to control the master nodes of configuration management systems like Chef, Ansible, and Puppet.<br></li><li><strong>Continuous Integration and Continuous Delivery</strong>: Continuous delivery (CD) is a computerized method in which every update is designed, tested, and released automatically. On the other hand, continuous integration (CI) is a procedure that requires all members of a team to utilise a single version control system and to integrate their work into the main branch on a frequent basis.<br></li><li><strong>Infrastructure as Code</strong>: With the rise of containerization and cloud computing technologies, the infrastructure required by developers can now be given by an automated script. The script is used to manage configurations and to run configuration management software. It also runs the necessary commands. As a result, the core application infrastructure or platform is available in a matter of seconds.<br></li><li><strong>Configuration Management</strong>:&nbsp; The process of keeping track of software and operating system configurations is known as configuration management. It can be used to manage the configurations of thousands of servers by utilising the management server to run a single command. Popular configuration management software tools include Ansible, Chef, and Puppet.<br></li><li><strong>Automation</strong>: In DevOps, automation is a key goal. It is the application of software to reduce human participation while enhancing efficiency. Gradle, Git, Jenkins, and Docker are all prominent automation platforms that DevOps engineers should be familiar with.</li></ul><h2 id="conclusion">Conclusion</h2><p>DevOps is a culture-shifting strategy that has and continues to benefit a wide range of enterprises and organizations. Because of the growing demand for DevOps skills, becoming a DevOps engineer provides several advantages.&nbsp;&nbsp;</p><p>DevOps creates a seamless route for Continuous Development and Continuous Integration, bridging the gap between the conflict of goals and priorities of developers and operations team.</p><p>DevOps is a vast discipline that has become one of the most in-demand technological skills in recent years. This blog should hopefully serve as a starting point for your journey into the realm of DevOps.</p><h2 id="faqs">FAQs</h2><h3 id="q1-how-do-you-explain-the-devops-project"><span id="q-1-how-do-you-explain-the-devops-project">Q.1: How do you explain the DevOps project?</span></h3><p><strong>Ans:</strong> One of the greatest ways to explain any project in a large topic like DevOps is to build things, rather than watching YouTube tutorials or following step-by-step guidelines.</p><p>In other words, analyze the problem statement in-depth, start finding the most optimal solution and implement it, and you&#8217;ll learn without even recognizing it. This knowledge will assist you in landing a great DevOps engineer role.</p><p>Working on your own DevOps projects will teach you how to:</p><ul><li>Read Documentation and Online Resources<br></li><li>Research on new and trending technologies<br></li><li>Find and contribute to online tech communities<br></li><li>Troubleshoot various issues while building the project<br></li><li>Learn various concepts and DevOps principles used in the project.</li></ul><p>You should describe projects that you have successfully accomplished in the past during a DevOps interview. The goal is to demonstrate to the hiring manager the breadth of your knowledge and experience with DevOps.</p><h3 id="q2-what-is-the-main-goal-of-devops"><span id="q-2-what-is-the-main-goal-of-devops">Q.2: What is the main goal of DevOps?</span></h3><p><strong>Ans:</strong> DevOps&#8217; main purpose is to tightly integrate automation and monitoring at every stage of the software development life cycle (SDLC), from integration to testing to release, deployment, and infrastructure management. </p><p>Shortening development cycles, increasing deployment frequency, and improving quality with predictable releases are all goals of DevOps, which are all aligned with business goals.</p><p>DevOps’ sole purpose is to remove the challenges from the software development methodology and make it a more streamlined process in the following ways:</p><ul><li><strong>Frequent Software Releases</strong>: New versions of the programme with the latest bug fixes and feature additions are delivered more regularly due to an iterative development approach, efficient peer code reviews, autonomous testing and build pipelines, and continuous deployments. Manual processes and time-consuming code reviews are avoided with automation at each stage of the DevOps lifecycle, eliminating time delays.<br></li><li><strong>Internal Communication</strong>: DevOps plays a critical role in resolving communication and priority issues between a company&#8217;s developer and operations teams. In the DevOps methodology, the line between the two groups is exceedingly fine. DevOps encourages better communication between teams, ensuring that everyone on the technical team is aware of any changes made to the codebase, resulting in more efficient incident management. These production adjustments are minor, making them easily reversible in the event of a system failure.<br></li><li><strong>Relevance to market dynamics</strong>: DevOps focuses on harnessing the feedback of end-users and stakeholders in an iterative software development process with more frequent releases. As a result, the software can adapt to changing market conditions and remain relevant to end-users.</li></ul><h3 id="q3-what-are-the-benefits-of-devops"><span id="q-3-what-are-the-benefits-of-devops">Q.3: What are the benefits of DevOps?</span></h3><p><strong>Ans:</strong> From a technology perspective, DevOps has a plethora of advantages. Some of the benefits of DevOps are described below:</p><ul><li>DevOps reduces the distinction between intra-organization teams (most notably, developer and operations teams), resulting in fewer silos and improved team communication.<br></li><li>The DevOps technique is intended for frequent app releases, resulting in a shorter time-to-market.<br></li><li>The foundations of the DevOps application development process are feedback loops. The application is always being improved in a rapid, iterative manner based on feedback from users and internal stakeholders.<br></li><li>Better application monitoring and maintenance typically result in fewer application downtimes, which means more consistent performance for users.<br></li><li>One of the pillars of the DevOps lifecycle is automation. It reduces manual labour while also improving the overall reliability and consistency of the application development pipeline.<br></li><li>In development, DevOps encourages increasing responsibility and code ownership. The positions are typically broader and more adaptable.<br></li><li>Finally, automation and pipelining allow for a more efficient development process.<br></li></ul><h2 id="additional-resources">Additional Resources</h2><ul><li><a rel="noreferrer noopener" href="https://www.interviewbit.com/devops-interview-questions/" target="_blank">DevOps Interview Questions</a></li><li><a rel="noreferrer noopener" href="https://www.interviewbit.com/blog/devops-engineer-skills/" target="_blank">DevOps Engineer Skills</a></li><li><a rel="noreferrer noopener" href="https://www.interviewbit.com/blog/devops-tools/" target="_blank">DevOps Tools</a></li><li><a rel="noreferrer noopener" href="https://www.interviewbit.com/blog/devops-engineer-salary/" target="_blank">DevOps Engineer Salary</a></li><li><a rel="noreferrer noopener" href="https://www.interviewbit.com/blog/devops-engineer/" target="_blank">Who is a DevOps Engineer?</a></li><li><a rel="noreferrer noopener" href="https://www.interviewbit.com/blog/devops-engineer-resume/" target="_blank">DevOps Engineer Resume</a></li><li><a rel="noreferrer noopener" href="https://www.interviewbit.com/blog/devops-principles/" target="_blank">DevOps Principles</a></li><li><a rel="noreferrer noopener" href="https://www.interviewbit.com/blog/sre-vs-devops/" target="_blank">DevOps Vs SRE</a></li></ul><div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-simple-light pk-share-buttons-has-counts pk-share-buttons-highlight-text pk-share-buttons-mode-none" data-post-id="8209" data-share-url="https://www.interviewbit.com/blog/devops-projects/" data-scheme="default"><div class="pk-share-buttons-items"><div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-item-count" data-id="facebook"> <a href="https://www.facebook.com/sharer.php?t=--SHARETEXT--&u=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i> <span class="pk-share-buttons-count pk-font-secondary">42</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter"> <a href="https://twitter.com/share?text=--SHARETEXT--&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-pinterest pk-share-buttons-no-count" data-id="pinterest"> <a href="https://pinterest.com/pin/create/bookmarklet/?description=--SHARETEXT--&url=https://www.interviewbit.com/blog/devops-projects/&media=https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-1024x500.png" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-pinterest"></i> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-mail pk-share-buttons-no-count" data-id="mail"> <a href="mailto:?subject=Top%2010%20DevOps%20Projects%20With%20Source%20Code%20%5B2023%5D&body=--SHARETEXT--%20https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-mail"></i> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div></div></div><div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-simple-light pk-share-buttons-has-counts pk-share-buttons-blockquote pk-share-buttons-mode-none" data-post-id="8209" data-share-url="https://www.interviewbit.com/blog/devops-projects/" ><div class="pk-share-buttons-items"><div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-item-count" data-id="facebook"> <a href="https://www.facebook.com/sharer.php?t=--SHARETEXT--&u=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i> <span class="pk-share-buttons-label pk-font-primary">Share</span> <span class="pk-share-buttons-count pk-font-secondary">42</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter"> <a href="https://twitter.com/share?text=--SHARETEXT--&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i> <span class="pk-share-buttons-label pk-font-primary">Tweet</span> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-pinterest pk-share-buttons-no-count" data-id="pinterest"> <a href="https://pinterest.com/pin/create/bookmarklet/?description=--SHARETEXT--&url=https://www.interviewbit.com/blog/devops-projects/&media=https://www.interviewbit.com/blog/wp-content/uploads/2022/04/DevOps-Projects-1024x500.png" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-pinterest"></i> <span class="pk-share-buttons-label pk-font-primary">Pin it</span> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-mail pk-share-buttons-no-count" data-id="mail"> <a href="mailto:?subject=Top%2010%20DevOps%20Projects%20With%20Source%20Code%20%5B2023%5D&body=--SHARETEXT--%20https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-mail"></i> <span class="pk-share-buttons-label pk-font-primary">Share</span> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div></div></div></div><div class="cs-entry__tags"><ul><li><a href="https://www.interviewbit.com/blog/tag/devops-projects/" rel="tag">DevOps Projects</a></li></ul></div><div class="cs-entry__after-share-buttons"><div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-simple-light pk-share-buttons-after-post pk-share-buttons-mode-php pk-share-buttons-mode-rest" data-post-id="8209" data-share-url="https://www.interviewbit.com/blog/devops-projects/" ><div class="pk-share-buttons-items"><div class="pk-share-buttons-item pk-share-buttons-whatsapp pk-share-buttons-no-count" data-id="whatsapp"> <a href="whatsapp://send?text=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-whatsapp"></i> <span class="pk-share-buttons-label pk-font-primary">Share</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-linkedin pk-share-buttons-no-count" data-id="linkedin"> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-linkedin"></i> <span class="pk-share-buttons-label pk-font-primary">Share</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-no-count" data-id="facebook"> <a href="https://www.facebook.com/sharer.php?u=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i> <span class="pk-share-buttons-label pk-font-primary">Share</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter"> <a href="https://twitter.com/share?&text=Top%2010%20DevOps%20Projects%20With%20Source%20Code%20%5B2023%5D&via=interview_bit&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i> <span class="pk-share-buttons-label pk-font-primary">Tweet</span> </a></div></div></div></div><div class="cs-entry__prev-next"><div class="cs-entry__prev-next-item cs-entry__prev"> <a class="cs-entry__prev-next-link" href="https://www.interviewbit.com/blog/difference-between-html-and-xml/"></a><div class="cs-entry__prev-next-label"><h5 class="cs-section-heading cnvs-block-section-heading is-style-cnvs-block-section-heading-default halignleft  "><span class="cnvs-section-title"><span><span class="cs-section-subheadings">Previous Post</span></span></span></h5></div><div class="cs-entry"><div class="cs-entry__outer"><div class="cs-entry__inner cs-entry__thumbnail cs-overlay-ratio cs-ratio-square"><div class="cs-overlay-background cs-overlay-transparent"> <img width="110" height="110" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABuAQMAAAD8lbS4AAAAA1BMVEUAAP+KeNJXAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABVJREFUOMtjYBgFo2AUjIJRMAroAQAGcgABdoTxvAAAAABJRU5ErkJggg==" class="attachment-csco-small size-csco-small pk-lazyload wp-post-image" alt="HTML Vs XML" loading="lazy" data-pk-sizes="auto" data-ls-sizes="(max-width: 110px) 100vw, 110px" data-pk-src="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/cover-1-110x110.jpg" data-pk-srcset="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/cover-1-110x110.jpg 110w, https://www.interviewbit.com/blog/wp-content/uploads/2021/09/cover-1-150x150.jpg 150w, https://www.interviewbit.com/blog/wp-content/uploads/2021/09/cover-1-80x80.jpg 80w" /></div></div><div class="cs-entry__inner cs-entry__content"><div class="cs-entry__post-meta" ><div class="cs-meta-category"><ul class="post-categories"><li><a href="https://www.interviewbit.com/blog/category/compare/" rel="category tag">Compare</a></li></ul></div></div><h2 class="cs-entry__title"><a href="https://www.interviewbit.com/blog/difference-between-html-and-xml/">Difference Between HTML and XML &#8211; XML vs HTML</a></h2><div class="cs-entry__post-meta" ><div class="cs-meta-date">September 26, 2023</div></div></div></div></div></div><div class="cs-entry__prev-next-item cs-entry__next"> <a class="cs-entry__prev-next-link" href="https://www.interviewbit.com/blog/html-projects/"></a><div class="cs-entry__prev-next-label"><h5 class="cs-section-heading cnvs-block-section-heading is-style-cnvs-block-section-heading-default halignleft  "><span class="cnvs-section-title"><span><span class="cs-section-subheadings">Next Post</span></span></span></h5></div><div class="cs-entry"><div class="cs-entry__outer"><div class="cs-entry__inner cs-entry__thumbnail cs-overlay-ratio cs-ratio-square"><div class="cs-overlay-background cs-overlay-transparent"> <img width="110" height="110" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABuAQMAAAD8lbS4AAAAA1BMVEUAAP+KeNJXAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABVJREFUOMtjYBgFo2AUjIJRMAroAQAGcgABdoTxvAAAAABJRU5ErkJggg==" class="attachment-csco-small size-csco-small pk-lazyload wp-post-image" alt="html projects" loading="lazy" data-pk-sizes="auto" data-ls-sizes="(max-width: 110px) 100vw, 110px" data-pk-src="https://www.interviewbit.com/blog/wp-content/uploads/2022/01/html-projects-110x110.jpg" data-pk-srcset="https://www.interviewbit.com/blog/wp-content/uploads/2022/01/html-projects-110x110.jpg 110w, https://www.interviewbit.com/blog/wp-content/uploads/2022/01/html-projects-150x150.jpg 150w, https://www.interviewbit.com/blog/wp-content/uploads/2022/01/html-projects-80x80.jpg 80w" /></div></div><div class="cs-entry__inner cs-entry__content"><div class="cs-entry__post-meta" ><div class="cs-meta-category"><ul class="post-categories"><li><a href="https://www.interviewbit.com/blog/category/projects/" rel="category tag">Projects</a></li></ul></div></div><h2 class="cs-entry__title"><a href="https://www.interviewbit.com/blog/html-projects/">15 Top HTML Projects For Beginners [With Source Code]</a></h2><div class="cs-entry__post-meta" ><div class="cs-meta-date">October 3, 2023</div></div></div></div></div></div></div></div></div></div></div><aside id="secondary" class="cs-widget-area cs-sidebar__area"><div class="cs-sidebar__inner"><div class="widget text-6 widget_text"><div class="textwidget"><div data-advadstrackid="13919" data-advadstrackbid="1" class="inter-target" id="inter-1364532555"><!--noptimize--><a data-bid="1" href="https://www.interviewbit.com/blog/link/13919" rel="noopener" class="notrack" target="_blank"><img loading="lazy" src="https://www.interviewbit.com/blog/wp-content/uploads/2022/10/banner-17-desktop.jpg" alt=""  width="700" height="933"  style=" max-width: 100%; height: auto;" /></a><!--/noptimize--></div></div></div><div class="widget categories-3 widget_categories"><h5 class="cs-section-heading cnvs-block-section-heading is-style-cnvs-block-section-heading-default halignleft  "><span class="cnvs-section-title"><span>Categories</span></span></h5><ul><li class="cat-item cat-item-653"><a href="https://www.interviewbit.com/blog/category/applications/">Applications</a></li><li class="cat-item cat-item-1420"><a href="https://www.interviewbit.com/blog/category/architecture/">Architecture</a></li><li class="cat-item cat-item-739"><a href="https://www.interviewbit.com/blog/category/books/">Books</a></li><li class="cat-item cat-item-67"><a href="https://www.interviewbit.com/blog/category/careers/">Careers</a></li><li class="cat-item cat-item-945"><a href="https://www.interviewbit.com/blog/category/characteristics/">Characteristics</a></li><li class="cat-item cat-item-145"><a href="https://www.interviewbit.com/blog/category/coding-problems/">Coding Problems</a></li><li class="cat-item cat-item-748"><a href="https://www.interviewbit.com/blog/category/commands/">Commands</a></li><li class="cat-item cat-item-99"><a href="https://www.interviewbit.com/blog/category/compare/">Compare</a></li><li class="cat-item cat-item-953"><a href="https://www.interviewbit.com/blog/category/components/">Components</a></li><li class="cat-item cat-item-1162"><a href="https://www.interviewbit.com/blog/category/courses/">Courses</a></li><li class="cat-item cat-item-532"><a href="https://www.interviewbit.com/blog/category/features/">Features</a></li><li class="cat-item cat-item-95"><a href="https://www.interviewbit.com/blog/category/frameworks/">Frameworks</a></li><li class="cat-item cat-item-602"><a href="https://www.interviewbit.com/blog/category/ide/">IDE</a></li><li class="cat-item cat-item-1559"><a href="https://www.interviewbit.com/blog/category/interview-question/">Interview Question</a></li><li class="cat-item cat-item-66"><a href="https://www.interviewbit.com/blog/category/it-companies/">IT Companies</a></li><li class="cat-item cat-item-10"><a href="https://www.interviewbit.com/blog/category/job-roles/">Job Roles</a></li><li class="cat-item cat-item-621"><a href="https://www.interviewbit.com/blog/category/libraries/">Libraries</a></li><li class="cat-item cat-item-1462"><a href="https://www.interviewbit.com/blog/category/methodologies/">Methodologies</a></li><li class="cat-item cat-item-974"><a href="https://www.interviewbit.com/blog/category/model/">Model</a></li><li class="cat-item cat-item-949"><a href="https://www.interviewbit.com/blog/category/principles/">Principles</a></li><li class="cat-item cat-item-54"><a href="https://www.interviewbit.com/blog/category/projects/">Projects</a></li><li class="cat-item cat-item-690"><a href="https://www.interviewbit.com/blog/category/resume/">Resume</a></li><li class="cat-item cat-item-2"><a href="https://www.interviewbit.com/blog/category/salaries/">Salaries</a></li><li class="cat-item cat-item-15"><a href="https://www.interviewbit.com/blog/category/skills/">Skills</a></li><li class="cat-item cat-item-1441"><a href="https://www.interviewbit.com/blog/category/technologies/">Technologies</a></li><li class="cat-item cat-item-515"><a href="https://www.interviewbit.com/blog/category/tools/">Tools</a></li><li class="cat-item cat-item-1351"><a href="https://www.interviewbit.com/blog/category/types/">Types</a></li></ul></div></div></aside></div></div></div></main><footer class="cs-footer cs-footer-two" data-scheme="default"><div class="cs-container"><div class="cs-footer__item"><div class="cs-footer__col  cs-col-left"><div class="cs-footer__inner"><div class="cs-logo"> <a class="cs-footer__logo cs-logo-default" href="https://www.interviewbit.com/blog/"> <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/IB-Logo.png"  alt="InterviewBit" > </a> <a class="cs-footer__logo cs-logo-dark" href="https://www.interviewbit.com/blog/"> <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/09/IB-Logo-Invert.png"  alt="InterviewBit" > </a></div><div class="cs-footer__desc"> © 2021 InterviewBit</div></div></div><div class="cs-footer__col cs-col-center"><div class="footer-nav-menu"><ul id="menu-footer-menu" class="cs-footer__nav cs-nav-grid"><li id="menu-item-19436" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19436"><a href="https://www.interviewbit.com/blog/best-free-python-course/">Best Free Python Course</a></li><li id="menu-item-19434" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19434"><a href="https://www.interviewbit.com/blog/best-free-cpp-course/">Best Free C++ Course</a></li><li id="menu-item-19435" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19435"><a href="https://www.interviewbit.com/blog/best-free-java-course/">Best Free Java Course</a></li><li id="menu-item-19433" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19433"><a href="https://www.interviewbit.com/blog/top-free-javascript-courses-to-learn-online/">Top Free JavaScript Courses</a></li><li id="menu-item-19456" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19456"><a href="https://www.interviewbit.com/blog/best-data-science-courses/">Best Data Science Courses &#8211; Free &#038; Paid</a></li><li id="menu-item-19457" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19457"><a href="https://www.interviewbit.com/blog/best-courses-for-data-structures-and-algorithms/">Best Courses for Data Structures &#038; Algorithms-  Free &#038; Paid</a></li><li id="menu-item-19458" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19458"><a href="https://www.interviewbit.com/blog/best-machine-learning-courses/">Best Machine Learning Courses &#8211; Free &#038; Paid</a></li><li id="menu-item-19459" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19459"><a href="https://www.interviewbit.com/blog/best-system-design-courses/">Best System Design Courses &#8211; Free &#038; Paid</a></li><li id="menu-item-19460" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19460"><a href="https://www.interviewbit.com/blog/best-full-stack-developer-courses/">Best Full Stack Developer Courses &#8211; Free &#038; Paid</a></li><li id="menu-item-19461" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19461"><a href="https://www.interviewbit.com/blog/best-web-development-courses/">Best Web Development Courses &#8211; Free &#038; Paid</a></li></ul></div></div><div class="cs-footer__col cs-col-right"><div class="cs-footer-social-links"><div class="cs-footer-social-links"><div class="pk-social-links-wrap  pk-social-links-template-nav pk-social-links-align-default pk-social-links-scheme-default pk-social-links-titles-disabled pk-social-links-counts-disabled pk-social-links-labels-disabled"><div class="pk-social-links-items"><div class="pk-social-links-item pk-social-links-facebook  pk-social-links-no-count" data-id="facebook"> <a href="https://facebook.com/interviewbit" class="pk-social-links-link" target="_blank" rel="nofollow noopener" aria-label="Facebook"> <i class="pk-social-links-icon pk-icon pk-icon-facebook"></i> </a></div><div class="pk-social-links-item pk-social-links-linkedin  pk-social-links-no-count" data-id="linkedin"> <a href="https://www.linkedin.com/in/interviewbit" class="pk-social-links-link" target="_blank" rel="nofollow noopener" aria-label="LinkedIn"> <i class="pk-social-links-icon pk-icon pk-icon-linkedin"></i> </a></div><div class="pk-social-links-item pk-social-links-twitter  pk-social-links-no-count" data-id="twitter"> <a href="https://twitter.com/interview_bit" class="pk-social-links-link" target="_blank" rel="nofollow noopener" aria-label="Twitter"> <i class="pk-social-links-icon pk-icon pk-icon-twitter"></i> </a></div><div class="pk-social-links-item pk-social-links-instagram  pk-social-links-no-count" data-id="instagram"> <a href="https://www.instagram.com/interview_bit" class="pk-social-links-link" target="_blank" rel="nofollow noopener" aria-label="Instagram"> <i class="pk-social-links-icon pk-icon pk-icon-instagram"></i> </a></div><div class="pk-social-links-item pk-social-links-youtube  pk-social-links-no-count" data-id="youtube"> <a href="https://www.youtube.com/channel/UC1zDen32_Zt5G3Mm2aLV7ig" class="pk-social-links-link" target="_blank" rel="nofollow noopener" aria-label="YouTube"> <i class="pk-social-links-icon pk-icon pk-icon-youtube"></i> </a></div></div></div></div></div></div></div></div></footer></div></div> <script>(function(){var advanced_ads_ga_UID="UA-56207880-1",advanced_ads_ga_anonymIP=!!1;function AdvAdsAdBlockCounterGA(t){this.UID=t,this.analyticsObject="function"==typeof gtag;var n=this;return this.count=function(){gtag("event","AdBlock",{event_category:"Advanced Ads",event_label:"Yes",non_interaction:!0,send_to:n.UID})},function(){if(!n.analyticsObject){var e=document.createElement("script");e.src="https://www.googletagmanager.com/gtag/js?id="+t,e.async=!0,document.body.appendChild(e),window.dataLayer=window.dataLayer||[],window.gtag=function(){dataLayer.push(arguments)},n.analyticsObject=!0,gtag("js",new Date)}var a={send_page_view:!1,transport_type:"beacon"};window.advanced_ads_ga_anonymIP&&(a.anonymize_ip=!0),gtag("config",t,a)}(),this}window.advanced_ads_check_adblocker=function(t){var n=[],e=null;function a(t){(window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||function(t){return setTimeout(t,16)}).call(window,t)}return a((function(){var t=document.createElement("div");t.innerHTML="&nbsp;",t.setAttribute("class","ad_unit ad-unit text-ad text_ad pub_300x250"),t.setAttribute("style","width: 1px !important; height: 1px !important; position: absolute !important; left: 0px !important; top: 0px !important; overflow: hidden !important;"),document.body.appendChild(t),a((function(){var a=window.getComputedStyle&&window.getComputedStyle(t),o=a&&a.getPropertyValue("-moz-binding");e=a&&"none"===a.getPropertyValue("display")||"string"==typeof o&&-1!==o.indexOf("about:");for(var i=0,d=n.length;i<d;i++)n[i](e);n=[]}))})),function(t){null!==e?t(e):n.push(t)}}(),advanced_ads_check_adblocker((function(t){t&&new AdvAdsAdBlockCounterGA(advanced_ads_ga_UID).count()}));})();</script> <a href="#top" class="pk-scroll-to-top"> <i class="pk-icon pk-icon-up"></i> </a><div class="pk-mobile-share-overlay"><div class="pk-share-buttons-wrap pk-share-buttons-layout-horizontal pk-share-buttons-scheme-default pk-share-buttons-has-counts pk-share-buttons-has-total-counts pk-share-buttons-mobile-share pk-share-buttons-mode-none" data-post-id="8209" data-share-url="https://www.interviewbit.com/blog/devops-projects/" ><div class="pk-share-buttons-total"><div class="pk-share-buttons-title pk-font-primary">Total</div><div class="pk-share-buttons-count pk-font-heading">42</div><div class="pk-share-buttons-label pk-font-secondary">Share</div></div><div class="pk-share-buttons-items"><div class="pk-share-buttons-item pk-share-buttons-whatsapp pk-share-buttons-no-count" data-id="whatsapp"> <a href="whatsapp://send?text=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-whatsapp"></i> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-item-count" data-id="facebook"> <a href="https://www.facebook.com/sharer.php?u=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i> <span class="pk-share-buttons-count pk-font-secondary">42</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter"> <a href="https://twitter.com/share?&text=Top%2010%20DevOps%20Projects%20With%20Source%20Code%20%5B2023%5D&via=interview_bit&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-linkedin pk-share-buttons-no-count" data-id="linkedin"> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-linkedin"></i> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div><div class="pk-share-buttons-item pk-share-buttons-fb-messenger pk-share-buttons-no-count" data-id="fb-messenger"> <a href="fb-messenger://share/?link=https://www.interviewbit.com/blog/devops-projects/" class="pk-share-buttons-link" target="_blank"> <i class="pk-share-buttons-icon pk-icon pk-icon-fb-messenger"></i> <span class="pk-share-buttons-count pk-font-secondary">0</span> </a></div></div></div></div> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMKZTRG"
+height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript><div id="fb-root"></div> <script>( function( d, s, id ) {
+			var js, fjs = d.getElementsByTagName( s )[0];
+			if ( d.getElementById( id ) ) return;
+			js = d.createElement( s ); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=305449883698649";
+			fjs.parentNode.insertBefore( js, fjs );
+		}( document, 'script', 'facebook-jssdk' ) );</script> <script>var _SEARCHWP_LIVE_AJAX_SEARCH_BLOCKS = true;
+			var _SEARCHWP_LIVE_AJAX_SEARCH_ENGINE = 'default';
+			var _SEARCHWP_LIVE_AJAX_SEARCH_CONFIG = 'default';</script> <div id="amp-mobile-version-switcher" hidden> <a rel="" href="https://www.interviewbit.com/blog/devops-projects/?amp=1"> Go to mobile version </a></div><style>.wp-container-1 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-1 > * { margin: 0; }</style><style>.wp-container-2 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-2 > * { margin: 0; }</style><style>.wp-container-3 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-3 > * { margin: 0; }</style><style>.wp-container-4 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-4 > * { margin: 0; }</style><style>.wp-container-5 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-5 > * { margin: 0; }</style><style>.wp-container-6 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-6 > * { margin: 0; }</style><style>.wp-container-7 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-7 > * { margin: 0; }</style><style>.wp-container-8 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-8 > * { margin: 0; }</style><style>.wp-container-9 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-9 > * { margin: 0; }</style><style>.wp-container-10 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-10 > * { margin: 0; }</style> <script id='canvas-justified-gallery-js-extra'>var canvasJG = {"rtl":""};</script> <script id='canvas-slider-gallery-js-extra'>var canvas_sg_flickity = {"page_info_sep":" of "};</script> <script id='powerkit-justified-gallery-js-extra'>var powerkitJG = {"rtl":""};</script> <script id='powerkit-lightbox-js-extra'>var powerkit_lightbox_localize = {"text_previous":"Previous","text_next":"Next","text_close":"Close","text_loading":"Loading","text_counter":"of","single_image_selectors":".entry-content img","gallery_selectors":".wp-block-gallery,.gallery","exclude_selectors":"","zoom_icon":"1"};</script> <script id='powerkit-opt-in-forms-js-extra'>var opt_in = {"ajax_url":"https:\/\/www.interviewbit.com\/blog\/wp-admin\/admin-ajax.php","warning_privacy":"Please confirm that you agree with our policies."};</script> <script async="async" defer="defer" src='//assets.pinterest.com/js/pinit.js?ver=5.9.8' id='powerkit-pinterest-js'></script> <script id='powerkit-pin-it-js-extra'>var powerkit_pinit_localize = {"image_selectors":".entry-content img","exclude_selectors":".cnvs-block-row,.cnvs-block-section,.cnvs-block-posts .entry-thumbnail,.cnvs-post-thumbnail,.pk-featured-categories img,.pk-inline-posts-container img,.pk-instagram-image,.pk-subscribe-image,.wp-block-cover,.pk-block-posts,.cs-posts-area__main,.cs-entry","only_hover":"1"};</script> <script id='powerkit-slider-gallery-js-extra'>var powerkit_sg_flickity = {"page_info_sep":" of "};</script> <script id='advanced-ads-responsive-js-extra'>var advanced_ads_responsive = {"reload_on_resize":"0"};</script> <script id='advanced-ads-sticky-footer-js-js-extra'>var advanced_ads_sticky_settings = {"check_position_fixed":"","sticky_class":"inter-sticky","placements":["right-sidebar","temp-trial-acad"]};</script> <script id='csco-scripts-js-extra'>var csLocalize = {"siteSchemeMode":"light","siteSchemeToogle":""};
+var csco_ajax_nextpost = {"type":"ajax_restapi","not_in":[8209],"next_post":"5487","current_user":"0","nonce":"047ede1423","rest_url":"https:\/\/www.interviewbit.com\/blog\/wp-json\/csco\/v1\/more-nextpost","url":"https:\/\/www.interviewbit.com\/blog\/wp-admin\/admin-ajax.php"};
+var csco_mega_menu = {"rest_url":"https:\/\/www.interviewbit.com\/blog\/wp-json\/csco\/v1\/menu-posts"};</script> <script id='swp-live-search-client-js-extra'>var searchwp_live_search_params = [];
+searchwp_live_search_params = {"ajaxurl":"https:\/\/www.interviewbit.com\/blog\/wp-admin\/admin-ajax.php","origin_id":8209,"config":{"default":{"engine":"default","input":{"delay":300,"min_chars":3},"results":{"position":"bottom","width":"auto","offset":{"x":0,"y":5}},"spinner":{"lines":12,"length":8,"width":3,"radius":8,"scale":1,"corners":1,"color":"#424242","fadeColor":"transparent","speed":1,"rotate":0,"animation":"searchwp-spinner-line-fade-quick","direction":1,"zIndex":2000000000,"className":"spinner","top":"50%","left":"50%","shadow":"0 0 1px transparent","position":"absolute"}}},"msg_no_config_found":"No valid SearchWP Live Search configuration found!","aria_instructions":"When autocomplete results are available use up and down arrows to review and enter to go to the desired page. Touch device users, explore by touch or with swipe gestures."};;</script> <script id='advadsTrackingScript-js-extra'>var advadsTracking = {"impressionActionName":"aatrack-records","clickActionName":"aatrack-click","targetClass":"inter-target","blogId":"1"};</script> <script id='advadsTrackingGAFront-js-extra'>var advadsGALocale = {"Impressions":"Impressions","Clicks":"Clicks"};</script> <script id='enlighterjs-js-after'>!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":4,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"break","linenumbers":true,"theme":"enlighter","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);</script> <!--noptimize--><script>window.advads_admin_bar_items = [{"title":"Career Tool - Text Ad","type":"ad"},{"title":"Content 6","type":"placement"},{"title":"Temp -project","type":"ad"}];</script><!--/noptimize--> <script type="text/javascript">"use strict";
+
+		(function($) {
+
+			$( window ).on( 'load', function() {
+
+				// Get all links.
+				var powerkitSLinksIds = [];
+
+				var powerkitSLinksRestBox = $( '.pk-social-links-mode-rest' );
+
+				// Generate links Ids.
+				$( powerkitSLinksRestBox ).each( function( index, wrap ) {
+
+					if ( ! $( wrap ).hasClass( 'pk-social-links-counts-disabled' ) ) {
+
+						$( wrap ).find( '.pk-social-links-item' ).each( function() {
+							if ( $( this ).attr( 'data-id' ).length > 0 ) {
+								powerkitSLinksIds.push( $( this ).attr( 'data-id' ) );
+							}
+						});
+					}
+				});
+
+				// Generate links data.
+				var powerkitSLinksData = {};
+
+				if( powerkitSLinksIds.length > 0 ) {
+					powerkitSLinksData = { 'ids' : powerkitSLinksIds.join() };
+				}
+
+				// Check data.
+				if ( ! Object.entries( powerkitSLinksData ).length ) {
+					return;
+				}
+
+				// Get results by REST API.
+				$.ajax({
+					type: 'GET',
+					url: 'https://www.interviewbit.com/blog/wp-json/social-counts/v1/get-counts',
+					data: powerkitSLinksData,
+					beforeSend: function(){
+
+						// Add Loading Class.
+						powerkitSLinksRestBox.addClass( 'pk-social-links-loading' );
+					},
+					success: function( response ) {
+
+						if ( ! $.isEmptyObject( response ) && ! response.hasOwnProperty( 'code' ) ) {
+
+							// SLinks loop.
+							$.each( response, function( index, data ) {
+
+								// Find Bsa Item.
+								var powerkitSLinksItem = powerkitSLinksRestBox.find( '.pk-social-links-item[data-id="' + index + '"]');
+
+								// Set Class.
+								if ( data.hasOwnProperty( 'class' ) ) {
+									powerkitSLinksItem.addClass( data.class );
+								}
+
+								// Set Count.
+								if ( data.hasOwnProperty( 'result' ) && data.result !== null && data.result.hasOwnProperty( 'count' ) ) {
+
+									if ( data.result.count ) {
+										// Class Item.
+										powerkitSLinksItem.removeClass( 'pk-social-links-no-count' ).addClass( 'pk-social-links-item-count' );
+
+										// Count item.
+										powerkitSLinksItem.find( '.pk-social-links-count' ).not( '.pk-tippy' ).html( data.result.count );
+									}
+								} else {
+									powerkitSLinksItem.addClass( 'pk-social-links-no-count' );
+								}
+
+							});
+						}
+
+						// Remove Loading Class.
+						powerkitSLinksRestBox.removeClass( 'pk-social-links-loading' );
+					},
+					error: function() {
+
+						// Remove Loading Class.
+						powerkitSLinksRestBox.removeClass( 'pk-social-links-loading' );
+					}
+				});
+			});
+
+		})(jQuery);</script> <script type="text/javascript">"use strict";
+
+		(function($) {
+
+			$( window ).on( 'load', function() {
+
+				// Each All Share boxes.
+				$( '.pk-share-buttons-mode-rest' ).each( function() {
+
+					var powerkitButtonsIds = [],
+						powerkitButtonsBox = $( this );
+
+					// Check Counts.
+					if ( ! powerkitButtonsBox.hasClass( 'pk-share-buttons-has-counts' ) && ! powerkitButtonsBox.hasClass( 'pk-share-buttons-has-total-counts' ) ) {
+						return;
+					}
+
+					powerkitButtonsBox.find( '.pk-share-buttons-item' ).each( function() {
+						if ( $( this ).attr( 'data-id' ).length > 0 ) {
+							powerkitButtonsIds.push( $( this ).attr( 'data-id' ) );
+						}
+					});
+
+					// Generate accounts data.
+					var powerkitButtonsData = {};
+
+					if( powerkitButtonsIds.length > 0 ) {
+						powerkitButtonsData = {
+							'ids'     : powerkitButtonsIds.join(),
+							'post_id' : powerkitButtonsBox.attr( 'data-post-id' ),
+							'url'     : powerkitButtonsBox.attr( 'data-share-url' ),
+						};
+					}
+
+					// Get results by REST API.
+					$.ajax({
+						type: 'GET',
+						url: 'https://www.interviewbit.com/blog/wp-json/social-share/v1/get-shares',
+						data: powerkitButtonsData,
+						beforeSend: function(){
+
+							// Add Loading Class.
+							powerkitButtonsBox.addClass( 'pk-share-buttons-loading' );
+						},
+						success: function( response ) {
+
+							if ( ! $.isEmptyObject( response ) && ! response.hasOwnProperty( 'code' ) ) {
+
+								// Accounts loop.
+								$.each( response, function( index, data ) {
+
+									if ( index !== 'total_count' ) {
+
+										// Find Bsa Item.
+										var powerkitButtonsItem = powerkitButtonsBox.find( '.pk-share-buttons-item[data-id="' + index + '"]');
+
+										// Set Count.
+										if ( data.hasOwnProperty( 'count' ) && data.count  ) {
+
+											powerkitButtonsItem.removeClass( 'pk-share-buttons-no-count' ).addClass( 'pk-share-buttons-item-count' );
+											powerkitButtonsItem.find( '.pk-share-buttons-count' ).html( data.count );
+
+										} else {
+											powerkitButtonsItem.addClass( 'pk-share-buttons-no-count' );
+										}
+									}
+								});
+
+								if ( powerkitButtonsBox.hasClass( 'pk-share-buttons-has-total-counts' ) && response.hasOwnProperty( 'total_count' ) ) {
+									var powerkitButtonsTotalBox = powerkitButtonsBox.find( '.pk-share-buttons-total' );
+
+									if ( response.total_count ) {
+										powerkitButtonsTotalBox.find( '.pk-share-buttons-count' ).html( response.total_count );
+										powerkitButtonsTotalBox.show().removeClass( 'pk-share-buttons-total-no-count' );
+									}
+								}
+							}
+
+							// Remove Loading Class.
+							powerkitButtonsBox.removeClass( 'pk-share-buttons-loading' );
+						},
+						error: function() {
+
+							// Remove Loading Class.
+							powerkitButtonsBox.removeClass( 'pk-share-buttons-loading' );
+						}
+					});
+				});
+			});
+
+		})(jQuery);</script> <!--noptimize--><script>!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script><!--/noptimize--><script id="inter-tracking">var advads_tracking_ads = {"1":[12876,13919]};var advads_tracking_urls = {"1":"https:\/\/www.interviewbit.com\/blog\/wp-admin\/admin-ajax.php"};var advads_tracking_methods = {"1":"ga"};var advads_tracking_parallel = {"1":false};var advads_tracking_linkbases = {"1":"https:\/\/www.interviewbit.com\/blog\/link\/"};var advads_gatracking_uids = {"1":"UA-56207880-1"};var advads_gatracking_allads = {"1":{"13975":{"title":"Temp -web-dev","target":"https:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-web-dev-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13943":{"title":"Temp - DSML Common","target":"https:\/\/www.scaler.com\/event\/experience-scaler-data-science-free-live-class-with-mudit-goel\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-data-science-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13929":{"title":"Temp - Academy Common","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-product-based-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13922":{"title":"Temp -software-project","target":"https:\/\/www.scaler.com\/event\/dare-to-dream-free-live-class-with-founders-of-scaler\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-mc-temp-software-project-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13919":{"title":"Temp -project","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-web-project-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13916":{"title":"Temp -software engineer","target":"https:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-software-engineer-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13913":{"title":"Temp -java","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-java-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13910":{"title":"Temp -python","target":"https:\/\/www.scaler.com\/event\/experience-scaler-data-science-free-live-class-with-mudit-goel\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-python-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13907":{"title":"Temp -it-comp","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-it-companies-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13904":{"title":"Temp -highest jobs","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-highest-jobs-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13901":{"title":"Temp -front-end","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-front-end-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13898":{"title":"Temp - backend","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-backend-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13895":{"title":"Temp - product-based","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-product-based-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13892":{"title":"Temp -data-sci","target":"https:\/\/www.scaler.com\/event\/experience-scaler-data-science-free-live-class-with-mudit-goel\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-data-science-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"13888":{"title":"Temp - full-stack-developer-salary","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=scaler-fc-temp-full-stack-free-class&utm_content=[POST_SLUG]","impression":true,"click":true},"12876":{"title":"Career Tool - Text Ad","target":"","impression":true,"click":true},"12809":{"title":"Temp Text Ad -","target":"","impression":true,"click":true},"8612":{"title":"Generic Sitewide Desktop - Academy (24May)","target":"https:\/\/www.scaler.com\/event\/free-class-with-founders-of-scaler\/?utm_source=ib&utm_medium=blog-sidebar&utm_campaign=want-to-join-maang-free-class-academy&utm_content=[POST_SLUG]","impression":true,"click":true},"10029":{"title":"Temp - Mobile- HR rounds","target":"https:\/\/www.scaler.com\/event\/dare-to-dream-free-live-class-with-founders-of-scaler\/","impression":true,"click":true},"9505":{"title":"Data Analyst - Text Ad (6 June)","target":"","impression":true,"click":true},"9495":{"title":"Data Science - Text Ad (6 June)","target":"","impression":true,"click":true},"9387":{"title":"Temp DS project - Mobile","target":"https:\/\/www.scaler.com\/event\/experience-scaler-data-science-free-live-class-with-mudit-goel\/","impression":true,"click":true},"8893":{"title":"Data Science \u2013 Main Banner option (Mobile)","target":"https:\/\/www.scaler.com\/event\/experience-scaler-data-science-free-live-class-with-mudit-goel\/?utm_source=ib&utm_medium=blog-mobile-top-banner&utm_campaign=career-transition-free-class-dsml&utm_content=[POST_SLUG]","impression":true,"click":true},"8626":{"title":"Academy \u2013 Main Banner option (Mobile)","target":"http:\/\/www.scaler.com\/event\/free-class-with-founders-academy\/?utm_source=ib&utm_medium=blog-mobile-top-banner&utm_campaign=want-to-join-maang-free-class-academy&utm_content=[POST_SLUG]","impression":true,"click":true},"7419":{"title":"DS (AD Group)","target":"","impression":true,"click":true},"7417":{"title":"Data Science V2","target":"https:\/\/www.scaler.com\/event\/experience-scaler-data-science-free-live-class-with-mudit-goel\/?utm_source=ib&utm_campaign=free-live-class&utm_medium=data-science-blog-banner-v2","impression":true,"click":true},"7414":{"title":"Data Science V1","target":"https:\/\/www.scaler.com\/event\/experience-scaler-data-science-free-live-class-with-mudit-goel\/?utm_source=ib&utm_campaign=free-live-class&utm_medium=data-science-blog-banner-v1","impression":true,"click":true}}};var advads_gatracking_anonym = false;var advads_gatracking_transmitpageqs = {};</script> <script type="text/javascript">if ( typeof window.advadsGATracking === 'undefined' ) {
+					window.advadsGATracking = {};
+				}
+								advadsGATracking.postContext = {"postID":8209,"postSlug":"devops-projects","cats":"projects"};</script> <script defer src="https://www.interviewbit.com/blog/wp-content/cache/autoptimize/js/autoptimize_ba64010352d96eee2458da506053f97c.js"></script></body> <script>window.dataLayer = window.dataLayer || [];
+
+    var PARAMS_CONSTANTS = [
+        'utm_source', 'utm_medium', 'utm_content',
+        'utm_campaign', 'utm_term',
+        'param1', 'param2', 'param3',
+        'param4', 'param5',
+    ];
+
+    var CLICK_PARAMS = ['gclid', 'fbclid', 'msclkid'];
+
+    function paramsToObject(entries) {
+        var result = {};
+        for (var [key, value] of entries) {
+            if (PARAMS_CONSTANTS.includes(key)) {
+                result[key] = value;
+            }
+            if (CLICK_PARAMS.includes(key)) {
+                result.mktg_click_id = `${key}=${value}`;
+            }
+        }
+        return result;
+    }
+
+    function pageViewData() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var entries = urlParams.entries();
+        var params = paramsToObject(entries);
+        var date = new Date();
+        var dateOffset = date.getTimezoneOffset();
+        var pathName = window.location.pathname;
+        var pagePath = pathName.endsWith('/') ? pathName : `${pathName}/`;
+        var referrerUrl = window.document.referrer
+        ? new URL(window.document.referrer) : null;
+
+        var attributes = {
+            cu_date: date,
+            cu_timezone_offset: dateOffset,
+            is_logged_in: false,
+            page_url: window.location.href,
+            page_path: pagePath,
+            company: 'interviewbit',
+            product: 'interviewbit',
+            'referrer-url': referrerUrl ? referrerUrl.href : null,
+            'referrer-host': referrerUrl ? referrerUrl.host : null,
+        }
+
+            Object.assign(attributes, params);
+
+        return {
+            event: 'we_page_load',
+            action: 'load',
+            attributes
+        }
+    }
+
+    function renderLoggedInOptions(userDetails, csrf) {
+      var username = userDetails.user_name || 'U'
+      var userDetailsNameFirstLetter = username[0].toUpperCase() || 'U';
+
+      return /* html */`
+        <div class="user-details">
+          <div class="user-details__dropdown dropdown">
+            <div class="user-details__avatar">${userDetailsNameFirstLetter}</div>
+            <a 
+              data-target="#" 
+              href="#" 
+              class="user-details__dropdown-link dropdown-toggle" 
+              data-toggle="dropdown" 
+              aria-haspopup="true" 
+              role="button" 
+              aria-expanded="false"
+            >
+              ${userDetails.first_name}
+              <span class="caret"></span>
+            </a>
+            <ul 
+              class="dropdown-menu dropdown-menu-right" 
+              role="menu" 
+              aria-labelledby="ibpp-user-details-dropdown"
+            >
+              <li class="user-details__dropdown-item dropdown-item" >
+                <a href="/profile/${username}">Profile</a>
+              </li>
+              <li class="user-details__dropdown-item dropdown-item" >
+                <a href="/settings/">Settings</a>
+              </li>
+              <li class="user-details__dropdown-item dropdown-item" >
+                <a href="/help_requests/">Help Requests</a>
+              </li>
+              <li class="user-details__dropdown-item dropdown-item">
+              	<form name="logout" method="post" action="/users/sign_out/" style="display: block; width: 100%;">
+				  <input name="_method" value="delete" type="hidden" />
+				  <input name="authenticity_token" value="${csrf}" type="hidden" />
+				  <input type="submit" value="Log out" />
+				</form>
+              </li>
+            </ul>
+          </div>
+        </div>
+      `;
+    } 
+
+    function renderLoggedOutOptions() {
+	  const currentUrl = `${window.location.protocol}//${window.location.host}${window.location.pathname}`;
+      return /* html */`
+        <a
+          class="ibpp-button"
+          href='/users/sign_in/?redirect_back=${currentUrl}'
+        >
+          Sign in
+        </a>`;
+    }
+
+    function renderHeader(isLoggedIn, details, csrf) {
+      var authOptionsContainer = document.querySelector('#header_right_id .cs-navbar-social-links');
+      var innerhtml = isLoggedIn ? renderLoggedInOptions(details, csrf) : renderLoggedOutOptions();
+      
+      authOptionsContainer.innerHTML = innerhtml;
+    }
+
+    function handleFormSubmit(event) {
+      event.preventDefault();
+
+      var form = event.currentTarget;
+      try {
+        var data = new URLSearchParams();
+        var formData = new FormData(form);
+        formData.append('_method', 'delete');
+
+        for (var pair of formData) {
+          data.append(pair[0], pair[1]);
+        }
+
+        fetch('/users/sign_out/', {
+          method: 'delete',
+          body: '{}',
+          headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
+            'X-Requested-With': 'XMLHttpRequest',
+          }
+        })
+          .then(res => {
+            window.location.reload();
+          })
+      } catch (err) {
+        console.log(err);
+      }
+    }
+
+    function handleLogout() {
+      var form = document.getElementById('logout-form');
+
+      if (form) {
+        form.addEventListener('submit', handleFormSubmit);
+      }
+    }
+	
+	function trackPageViewEvent(userLoggedIn, userData) {
+      var eventData = pageViewData();
+	  eventData.attributes.sub_product = 'blogs';
+	  eventData.event = 'page_view';
+
+      if(userLoggedIn && userData) {
+		var phoneNumber = null;
+		if(userData.country_code && userData.phone_number) {
+			phoneNumber = userData.country_code + '-' + userData.phone_number;
+		}
+        var userAtrributes = {
+          is_logged_in: true,
+          email: userData.email,
+          phone_number: phoneNumber,
+          graduation_year: userData.orgyear,
+        }
+        Object.assign(eventData.attributes, userAtrributes);
+      }
+		
+	  // Adding page_view event for /blogs pages
+	  window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(eventData);
+    }
+
+    function handleLoginState() {
+      var resPromise = fetch('/get_user_options/' + '?path=' + window.location.pathname);
+
+      resPromise
+        .then(res => {
+          return res.json()
+        })
+        .then(response => {
+          renderHeader(response.logged_in, response.user_details, response.csrf_token);
+		  trackPageViewEvent(response.logged_in, response.onboard);
+		  const masterclassEvent = new CustomEvent(
+			  'ib_masterclassDataFetched',
+			  { detail: response },
+		  );
+		  document.dispatchEvent(masterclassEvent);
+          // handleLogout();
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        var data = pageViewData();
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push(data);
+        handleLoginState();
+    });</script> <script>window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("ribbon-container");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky_header");
+  } else {
+    header.classList.remove("sticky_header");
+  }
+}</script> <script>(function() {
+        window.trackGaEvent = function(...args) {
+            const gaArgs = ['send', 'event', ...args];
+            window.ga && window.ga(...gaArgs);
+        };
+        const storageKey = 'ibpp-ribbon';
+
+        function ribbon(props) {
+            const {
+                name, title, description, logo,
+            } = props;
+        
+            let iconContent = '';
+            if (props.contest_icon !== '') {
+                iconContent = /* html */`
+                    <img
+                        class="ribbon-banner__event-type-icon"
+                        src="${props.contest_icon}"
+                        alt="ribbon contest type"
+                    />
+                `;
+            }
+        
+            let secondaryContent = '';
+            if (props.right_content !== '') {
+                secondaryContent = /* html */`
+                    <div class="ribbon-banner__right">
+                    ${props.right_content}
+                    </div>
+                `;
+            }
+
+            return /* html */`
+                <div class="ribbon-banner ${name}">
+                    <div class="ribbon-banner__body">
+                    <div class="ribbon-banner__container">
+                        <div class="ribbon-banner__title">
+                        <img
+                            class="ribbon-banner__brand-icon"
+                            src="${logo}"
+                            alt="ribbon logo"
+                        />
+                        <div class="ribbon-banner__event-type">
+                            ${iconContent}
+                            <i class="ribbon-banner__event-type-text">
+                            ${title}
+                            </i>
+                        </div>
+                        </div>
+                        <div class="ribbon-banner__content">
+                        <div class="ribbon-banner__event-description">
+                            ${description}
+                        </div>
+                        </div>
+                    </div>
+                    <hr class="ribbon-banner__divider" />
+                    <div class="ribbon-banner__action-container">
+                        <a
+                        class="ribbon-banner__action"
+						id="ribbon-banner-cta"
+                        href="${props.action.link}"
+                        target="_blank"
+                        onclick="window.trackGaEvent('${props.ga_event_name || name}', 'redirect', 'top_nudge');"
+                        >
+                        ${props.action.label}
+                        </a>
+                        ${secondaryContent}
+                        <img
+                        class="ribbon-banner__close-action"
+                        src="https://assets.interviewbit.com/packs/images/cross.dda597.svg"
+						onclick="window.trackGaEvent('top_nudge', 'ribbon_close', '${window.location.pathname}');"
+                        />
+                    </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function attachEventListeners(el) {
+            const closeIcon = el.getElementsByClassName('ribbon-banner__close-action')[0];
+			const ctaClick = el.querySelector('#ribbon-banner-cta');
+
+			ctaClick.addEventListener('click', () => {
+				window.trackGaEvent('top_nudge', 'ribbon_CTA_Click', window.location.pathname);
+			});
+
+            closeIcon.addEventListener('click', () => {
+                el.classList.add('ribbon-banner--hidden');
+                let storedConfig = localStorage.getItem(storageKey);
+                storedConfig = storedConfig && JSON.parse(storedConfig);
+
+                localStorage.setItem(storageKey, JSON.stringify({
+                    lastClose: new Date(),
+                    closes: storedConfig ? (storedConfig.closes + 1) : 1
+                }));
+            });
+        }
+
+        function initRibbon(data) {
+            const storedConfig = localStorage.getItem(storageKey);
+            const config = (storedConfig && JSON.parse(storedConfig)) || { closes: 0, lastClose: new Date(0) };
+            const todaysDate = new Date();
+            const lastClosedDate = new Date(config.lastClose);
+            const minInterval = 2 * 60 * 60 * 1000;
+
+            if ((todaysDate.getTime() - lastClosedDate.getTime()) <= minInterval) {
+                return;
+            }
+
+            // Selector
+            const ribbonElements = document.getElementById('ribbon-container');
+            ribbonElements.innerHTML = ribbon(data);
+			attachEventListeners(ribbonElements);
+        }
+
+        function handleRibbon() {
+            var resPromise = fetch('/external/ribbon/' + '?request_path=' + window.location.pathname);
+
+            resPromise
+                .then(res => {
+                    return res.json()
+                })
+                .then(response => {
+                    initRibbon(response.data);
+                });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            handleRibbon();
+        });
+    })();</script> </html>
+<!-- Dynamic page generated in 0.694 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2023-11-18 13:47:58 -->
+
+<!-- Compression = gzip -->
